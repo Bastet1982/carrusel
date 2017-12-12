@@ -19,7 +19,7 @@ body{
     position: relative;  /* los hijos tendran posicion absoluta */
 }
 
-.slider ul li{
+.slider li, ul{
     width: 100%;
 } 
 
@@ -57,23 +57,38 @@ body{
 
 .pagination{
     position: absolute;
+    top: 102%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
 }
-/*
+
+.pagination li{
+    font-size: 20px;
+    margin: 2px 5px;
+    color:  #630476 ;
+    cursor: pointer;
+}
+
 .left .right{
     position: absolute;
     top: 0;
     height: 100%;
+
     display: flex;
     align-items: center;
     color: #fff;
-    font-size: 35px;
+    font-size: 70px;
+   
 
 }
-/*
+
 .left{
     left: 10px;
 }
 
 .right{
     right: 10px;
-} */
+} 
+
